@@ -2,8 +2,8 @@
 
 ## Authors
 
-- Author 1: Kyriakos Chatzidimitriou
-- Author 2: Name Surname
+- Author 1: Sotirios Tsakalidis
+- Author 2: Odysseas Magionas
 
 ## Abstract
 
