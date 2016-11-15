@@ -2,8 +2,8 @@
 
 ## Authors
 
-- Author 1: Sotirios Tsakalidis
-- Author 2: Odysseas Magionas
+- Author 1: Odysseas Magionas
+- Author 2: Sotirios Tsakalidis
 
 ## Abstract
 
