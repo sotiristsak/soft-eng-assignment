@@ -24,9 +24,9 @@
 εξόδου στην υπηρεσία ώστε να υπάρχει ασφάλεια και αξιοπιστία κατά τη χρήση της και
 επίσης να αποφεύγεται η μη διαπιστευμένη χρήση της.
 
-#### User story
+#### Ιστορίες Χρηστών
 
-Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
+https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/FR1.feature
 
 ## Use case diagram
 
