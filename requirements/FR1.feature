@@ -1,7 +1,7 @@
 Feature: Login to the system
   As a user ( administrator/simple user)
-  So that i can exploit the system's potential.
-  I want to navigate to the home page.
+  So that i can exploit the system's potential
+  I want to navigate to the home page
 
 Scenario: Login as a user
   Given I am in Home Page
