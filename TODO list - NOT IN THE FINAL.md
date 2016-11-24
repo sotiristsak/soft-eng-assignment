@@ -1,4 +1,4 @@
-* - [ ] documentation
+* - [x] documentation
   * - [ ] storyboard.md
   * - [ ] intro.md
   * - [ ] requirements.md
