@@ -26,4 +26,4 @@ Scenario: Authentication Fail
   When i fill "Username" and "Password"
   And press the login button
   And i can not be authenticated
-  Then i should get a message to enter my credentials correctly or Signup
+  Then i should get a message to enter my credentials correctly or "Signup"
