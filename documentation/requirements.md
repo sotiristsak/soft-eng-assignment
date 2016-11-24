@@ -26,7 +26,7 @@
 
 #### Ιστορίες Χρηστών
 
-soft-eng-assignment/requirements/FR1.feature
+http://gitHub.com/sotiristsak/soft-eng-assignment/requirements/FR1.feature
 
 ## Use case diagram
 
