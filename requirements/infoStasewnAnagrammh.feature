@@ -6,7 +6,8 @@ Feature: Getting info about certain route's stations
 Scenario: Getting info about certain route's stations
   Given i am in Home Page
   When i press the "Info about route" button
-  Then i should get a list of all the available buses ordered by their number
+  Then i should be on the Info about Route page
+  And i should get a list of all the available buses ordered by their number
   When i choose a bus route
   And i choose the direction i want to go on that specific route
   Then i should get a list of all the stations my chosen bus route entails ordered chronologically
