@@ -6,6 +6,7 @@ Feature: Finding the Best Route on a Start-Finish Model
 Scenario: Finding the Best Route
   Given i am in Home Page
   When i press the "Best Route" button
+  Then i should be on the Best Route page
   Then i should be able to give my location and my destination to the system
   When i fill "Current Location" and "Destination"
   And i press the "Find" button
@@ -15,6 +16,7 @@ Scenario: Finding the Best Route
 Scenario: GPS needed
   Given i am in Home Page
   When i press the "Best Route" button
+  Then i should be on the Best Route page
   Then i should be able to give my location and my destination to the system
   When i fill "Current Location" and "Destination"
   And i press the "Find" button
