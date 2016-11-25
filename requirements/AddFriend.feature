@@ -21,8 +21,8 @@ Scenario: ID not found
   When i fill at least one of the frames
   Then i should be able to search for my friend throughout the system
   And i get a message that the ID i provided can not be found
-  Then i should be asked to give another ID  
-  And i should select my friend from the list provided from the search
+  Then i should be asked to give another ID and search again
+  And i should select my friend from the list provided from the new search
   And i should press "Send request" to send my friend a request to enlist him in my "Friendlist"
   
 Scenario: Email not found
@@ -33,8 +33,8 @@ Scenario: Email not found
   When i fill at least one of the frames
   Then i should be able to search for my friend throughout the system
   And i get a message that the email i provided can not be found
-  Then i should be asked to give another email
-  And i should select my friend from the list provided from the search
+  Then i should be asked to give another email and search again
+  And i should select my friend from the list provided from the new search
   And i should press "Send request" to send my friend a request to enlist him in my "Friendlist"
   
 Scenario: Phone number not found
@@ -45,7 +45,7 @@ Scenario: Phone number not found
   When i fill at least one of the frames
   Then i should be able to search for my friend throughout the system
   And i get a message that the phone number i provided can not be found
-  Then i should be asked to give another phone number
-  And i should select my friend from the list provided from the search
+  Then i should be asked to give another phone number and search again
+  And i should select my friend from the list provided from the new search
   And i should press "Send request" to send my friend a request to enlist him in my "Friendlist"
   
