@@ -6,6 +6,7 @@ Feature: Enlisting a station to the Favourites section
 Scenario: Enlisting a station to the Favourites section
   Given i am in Home Page
   When i press the "Favourites" button
+  Then i should be on the Favourites page
   Then i should be able to see a list of my Favourites
   And i press the "Add New" button
   Then i should choose from a list which station i want to add in the Favourite list
@@ -16,6 +17,7 @@ Scenario: Enlisting a station to the Favourites section
 Scenario: Already Enlisted
   Given i am in Home Page
   When i press the "Favourites" button
+  Then i should be on the Favourites page
   Then i should be able to see a list of my Favourites
   And i press the "Add New" button
   Then i should choose from a list which station i want to add in the Favourite list
