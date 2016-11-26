@@ -1,11 +1,11 @@
 Feature: Login to the system
-  As a user ( administrator/simple user)
+  As a user 
   So that i can exploit the system's potential
   I want to navigate to the home page
 
 Scenario: Login as a user
   Given I am in Home Page
-  When i press "Login"
+  When i press the "Login" button
   Then i should be on the Login Page
   When i fill "Username" and "Password"
   And press the login button
@@ -13,7 +13,7 @@ Scenario: Login as a user
 
 Scenario: Login as an administrator
   Given I am in Home Page
-  When i press "Login"
+  When i press the "Login" button
   Then i should be on the Login Page
   When i fill "Username" and "Password"
   And press the login button
@@ -21,7 +21,7 @@ Scenario: Login as an administrator
 
 Scenario: Authentication Fail
   Given I am in Home Page
-  When i press "Login"
+  When i press the "Login" button 
   Then i should be on the Login Page
   When i fill "Username" and "Password"
   And press the login button
