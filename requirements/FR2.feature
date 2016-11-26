@@ -1,12 +1,11 @@
-
 Feature: Signup to the system
   As a new user
   So that I can exploit the system's potential
-  I want I can issue my unique username and password
+  I want to create my unique username and password
 
 Scenario: Signup
   Given I am in Home Page
-  When I pres Signup
+  When I press the "Signup" button
   Then I should be on the Signup page
   When I fill "Username", "Password", "Email", "DoB" and "Mobile Number"
   And I press the Signup button
@@ -15,7 +14,7 @@ Scenario: Signup
   
 Scenario: Signup fail
   Given I am in Home Page
-  When I press Signup
+  When I press the "Signup" button
   Then I should be on the Signup page
   When I fill "Username", "Password", "Email", "DoB", "Mobile Number"
   And I press the Signup button
