@@ -9,6 +9,7 @@ Scenario: Sharing an e-Ticket
   Then I should be on the Share Ticket page
   And I should be able to see a list of all the tickets i have in my ticket stash
   Then I select a ticket from the list
+  And I should get a list of all my friends
   When I select a "Friend" from my "Friendlist"
   Then I press "Share" to share the ticket with my friend
   
@@ -21,6 +22,7 @@ Scenario: Ticket not found
   When I buy a ticket and it is added in my ticket stash
   Then I should be able to see a list of all the tickets i have in my ticket stash
   And I select a ticket from the list
+  Then I should get a list of all my friends
   When I select a "Friend" from my "Friendlist"
   Then I press "Share" to share the ticket with my friend
 
