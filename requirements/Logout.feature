@@ -5,14 +5,14 @@ Feature: Logout of the system
 
 Scenario: Logout as a user
   Given I am in Home Page
-  When i press the "Logout" button
-  Then i should get a pop-up message informing me that i am about to logout
-  When i press the "Yes" button
-  Then i should be redirected to the Home Page recognized as a guest
+  When I press the "Logout" button
+  Then I should get a pop-up message informing me that i am about to logout
+  When I press the "Yes" button
+  Then I should be redirected to the Home Page recognized as a guest
   
 Scenario: Logout fail
   Given I am in Home Page
-  When i press the "Logout" button
-  Then i should get a pop-up message informing me that i am about to logout
-  When i press the "No" button
-  Then i should be redirected to the Home Page recognized as a user
+  When I press the "Logout" button
+  Then I should get a pop-up message informing me that i am about to logout
+  When I press the "No" button
+  Then I should be redirected to the Home Page recognized as a user
