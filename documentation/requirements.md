@@ -2,7 +2,7 @@
 
 ## Λειτουργικές Απαιτήσεις και Ιστορίες Χρηστών
 
-### ΛΑ-1    Login
+### ΛΑ-1    *Login*
 
 Ο χρήστης πρέπει να μπορεί να κάνει είσοδο (Login) στην υπηρεσία.
 
@@ -27,7 +27,7 @@
 
 https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/Login.feature
 
-### ΛΑ-2    Signup
+### ΛΑ-2    *Signup*
 
 Ο χρήστης πρέπει να μπορεί να κάνει εγγραφή (Signup) στην υπηρεσία.
 
@@ -47,7 +47,7 @@ https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/Logi
 
 https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/Signup.feature
 
-### ΛΑ-3    Logout
+### ΛΑ-3    *Logout*
 
 Ο χρήστης πρέπει να μπορεί να κάνει έξοδο (Logout) από την υπηρεσία.
 
