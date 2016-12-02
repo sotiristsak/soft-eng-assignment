@@ -6,8 +6,8 @@ Feature: Edit an existing route
 Scenario: Editing a Route
   Given I am in Home Page
   And I am logged in as an administrator
-  Then I should be able to see the "Move to Admin mode" button
-  When I press the "Move to Admin mode" button
+  Then I should be able to see the "Admin mode" button
+  When I press the "Admin mode" button
   Then I should be on the Administrator page
   When I press the "Edit Route" button
   Then I should be on the Edit Route page
