@@ -15,6 +15,7 @@ Scenario: Creating a Route
   Then I select a number for my Route 
   And I give a name to my Route
   Then I press the "Add Route" button to add this Route to the already existing Routes
+  And I should return to the Administrator page
   
 Scenario: Already existing Route
   Given I am in Home Page
@@ -31,3 +32,4 @@ Scenario: Already existing Route
   When I get a message that this number for this Route is already given 
   And I should return and change the number to an available one
   Then I press the "Add Route" button to add this Route to the already existing Routes
+  And I should return to the Administrator page
