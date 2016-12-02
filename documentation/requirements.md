@@ -27,7 +27,7 @@
 
 https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/Login.feature
 
-### ΛΑ-2   Signup
+### ΛΑ-2    Signup
 
 Ο χρήστης πρέπει να μπορεί να κάνει εγγραφή (Signup) στην υπηρεσία.
 
