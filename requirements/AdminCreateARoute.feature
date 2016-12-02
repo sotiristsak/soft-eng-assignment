@@ -11,7 +11,7 @@ Scenario: Creating a Route
   Then I should be on the Administrator page
   When I press the "Create Route" button
   Then I should be on the Create Route page
-  And I should be able to fill all the new stations the new Route would include
+  And I should be able to fill all the stations the new Route would include
   Then I select a number for my Route 
   And I give a name to my Route
   Then I press the "Add Route" button to add this Route to the already existing Routes
@@ -25,7 +25,7 @@ Scenario: Already existing Route
   Then I should be on the Administrator page
   When I press the "Create Route" button
   Then I should be on the Create Route page
-  And I should be able to fill all the new stations the new Route would include
+  And I should be able to fill all the stations the new Route would include
   Then I select a number for my Route 
   And I give a name to my Route
   Then I press the "Add Route" button to add this Route to the already existing Routes
