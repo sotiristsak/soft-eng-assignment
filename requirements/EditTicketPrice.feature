@@ -6,8 +6,8 @@ Feature: Edit the ticket price
 Scenario: Editing a Ticket Price
   Given I am in Home Page
   And I am logged in as an administrator
-  Then I should be able to see the "Move to Admin mode" button
-  When I press the "Move to Admin mode" button
+  Then I should be able to see the "Admin mode" button
+  When I press the "Admin mode" button
   Then I should be on the Administrator page
   When I press the "Edit Ticket" button
   Then I should be on the Edit Ticket page
@@ -18,8 +18,8 @@ Scenario: Editing a Ticket Price
 Scenario: Wrong Ticket Price
   Given I am in Home Page
   And I am logged in as an administrator
-  Then I should be able to see the "Move to Admin mode" button
-  When I press the "Move to Admin mode" button
+  Then I should be able to see the "Admin mode" button
+  When I press the "Admin mode" button
   Then I should be on the Administrator page
   When I press the "Edit Ticket" button
   Then I should be on the Edit Ticket page
