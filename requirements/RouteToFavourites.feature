@@ -7,7 +7,6 @@ Scenario: Enlisting a route to the Favourites section
   Given I am in Home Page
   When I press the "Favourites" button
   Then I should be on the Favourites page
-  Then I should choose "Routes" or "Stations" button
   When I choose "Routes" button
   Then I should be able to see a list of my Favourites
   And I press the "Add New" button
@@ -21,7 +20,6 @@ Scenario: Already Enlisted
   Given I am in Home Page
   When I press the "Favourites" button
   Then I should be on the Favourites page
-  Then I should choose "Routes" or "Stations" button
   When I choose "Routes" button
   Then I should be able to see a list of my Favourites
   And I press the "Add New" button
@@ -30,6 +28,3 @@ Scenario: Already Enlisted
   Then I press "Add" to enlist them in the Favourite list
   When I get a message that my chosen route is already enlisted in the Favourite Stations
   Then I should be on the Favourites page
-
-
-Afou ekanes 2 periptwseis nomizw den xreiazetai na les Routes or stations button... apo ena koumpi sthn ka8emia
