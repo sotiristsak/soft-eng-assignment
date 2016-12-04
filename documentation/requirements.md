@@ -64,6 +64,22 @@ https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/Sign
 
 https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/Logout.feature 
 
+### ΛΑ-4    *Admin access to feedback*
+
+...
+
+**Περιγραφή**
+
+...
+
+**User Priority: (5/5)** ...
+
+**Technical Priority: (5/5)** ...
+
+#### Ιστορίες Χρηστών
+
+https://...
+
 ## Use case diagram
 
 Representation of all users and user stories/use cases
