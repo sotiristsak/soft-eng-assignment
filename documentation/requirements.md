@@ -64,7 +64,101 @@ https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/Sign
 
 https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/Logout.feature 
 
+### ΛΑ-4    *Admin access to feedback*
 
+...
+
+**Περιγραφή**
+
+...
+
+**User Priority: (5/5)** ...
+
+**Technical Priority: (5/5)** ...
+
+#### Ιστορίες Χρηστών
+
+https://...
+
+### ΛΑ-5    *Admin create a route*
+
+...
+
+**Περιγραφή**
+
+...
+
+**User Priority: (5/5)** ...
+
+**Technical Priority: (5/5)** ...
+
+#### Ιστορίες Χρηστών
+
+https://...
+
+### ΛΑ-6    *Admin create a station*
+
+...
+
+**Περιγραφή**
+
+...
+
+**User Priority: (5/5)** ...
+
+**Technical Priority: (5/5)** ...
+
+#### Ιστορίες Χρηστών
+
+https://...
+
+### ΛΑ-7    *Admin edit a route*
+
+...
+
+**Περιγραφή**
+
+...
+
+**User Priority: (5/5)** ...
+
+**Technical Priority: (5/5)** ...
+
+#### Ιστορίες Χρηστών
+
+https://...
+
+### ΛΑ-8    *Admin edit ticket price*
+
+...
+
+**Περιγραφή**
+
+...
+
+**User Priority: (5/5)** ...
+
+**Technical Priority: (5/5)** ...
+
+#### Ιστορίες Χρηστών
+
+https://...
+
+### ΛΑ-9    *Admin news feed*
+
+...
+
+**Περιγραφή**
+
+...
+
+**User Priority: (5/5)** ...
+
+**Technical Priority: (5/5)** ...
+
+#### Ιστορίες Χρηστών
+
+https://...
 
 
 ## Use case diagram
