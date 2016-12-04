@@ -2,7 +2,7 @@
 
 ## Λειτουργικές Απαιτήσεις και Ιστορίες Χρηστών
 
-### ΛΑ-1
+### ΛΑ-1    *Login*
 
 Ο χρήστης πρέπει να μπορεί να κάνει είσοδο (Login) στην υπηρεσία.
 
@@ -19,15 +19,15 @@
 χαρακτηρίζεται βάσει της κατηγορίας που ανήκει και δέχεται τα ανάλογα δικαιώματα
 και τους αντίστοιχους περιορισμούς. 
 
-**Technical Priority: (5/5)** Είναι πολύ σημαντικό να παρέχεται η λειτουργία εγγραφής
+**Technical Priority: (5/5)** Είναι πολύ σημαντικό να παρέχεται η λειτουργία εισόδου
 στην υπηρεσία ώστε να υπάρχει ασφάλεια και αξιοπιστία κατά τη χρήση της και επίσης να 
 αποφεύγεται η μη διαπιστευμένη χρήση της.
 
 #### Ιστορίες Χρηστών
 
-https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/FR1.feature
+https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/Login.feature
 
-### ΛΑ-2
+### ΛΑ-2    *Signup*
 
 Ο χρήστης πρέπει να μπορεί να κάνει εγγραφή (Signup) στην υπηρεσία.
 
@@ -41,13 +41,396 @@ https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/FR1.
 Αυτόματα ο χρήστης αποκτά τη δυνατότητα εισόδου στο σύστημα και δέχεται τα ανάλογα δικαιώματα
 και τους αντίστοιχους περιορισμούς. 
 
-**Technical Priority: (5/5)** Είναι αρκετά σημαντικό να παρέχεται η λειτουργία εισόδου και
-εξόδου στην υπηρεσία ώστε να υπάρχει ασφάλεια και αξιοπιστία κατά τη χρήση της και
-επίσης να αποφεύγεται η μη διαπιστευμένη χρήση της.
+**Technical Priority: (5/5)** Είναι αρκετά σημαντικό να παρέχεται η λειτουργία εγγραφής στην υπηρεσία ώστε να υπάρχει ασφάλεια και αξιοπιστία κατά τη χρήση της και επίσης να αποφεύγεται η μη διαπιστευμένη χρήση της.
 
 #### Ιστορίες Χρηστών
 
-https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/FR2.feature
+https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/Signup.feature
+
+### ΛΑ-3    *Logout*
+
+Ο χρήστης πρέπει να μπορεί να κάνει έξοδο (Logout) από την υπηρεσία.
+
+**Περιγραφή**
+
+Κάθε χρήστης πρέπει να κάνει έξοδο απο το σύστημα για να διαφυλάσσονται τα προσωπικά του δεδομένα. Το σύστημα θα πραγματοποιεί την έξοδο του χρήστη από την υπηρεσία και θα τον μεταφέρει στην ανάλογη αρχική σελίδα.
+
+**User Priority: (5/5)** Η υλοποίηση της διαδικασίας εξόδου είναι απαραίτητη για την σωστή και ασφαλή χρήση της υπηρεσίας. 
+
+**Technical Priority: (4/5)** Είναι αρκετά σημαντικό να παρέχεται η λειτουργία εξόδου από την υπηρεσία ώστε να υπάρχει 
+ασφάλεια και αξιοπιστία κατά τη χρήση της και επίσης να αποφεύγεται η μη διαπιστευμένη χρήση της.
+
+#### Ιστορίες Χρηστών
+
+https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/Logout.feature 
+
+### ΛΑ-4    *Admin access to feedback*
+
+...
+
+**Περιγραφή**
+
+...
+
+**User Priority: (5/5)** ...
+
+**Technical Priority: (5/5)** ...
+
+#### Ιστορίες Χρηστών
+
+https://...
+
+### ΛΑ-5    *Admin create a route*
+
+...
+
+**Περιγραφή**
+
+...
+
+**User Priority: (5/5)** ...
+
+**Technical Priority: (5/5)** ...
+
+#### Ιστορίες Χρηστών
+
+https://...
+
+### ΛΑ-6    *Admin create a station*
+
+...
+
+**Περιγραφή**
+
+...
+
+**User Priority: (5/5)** ...
+
+**Technical Priority: (5/5)** ...
+
+#### Ιστορίες Χρηστών
+
+https://...
+
+### ΛΑ-7    *Admin edit a route*
+
+...
+
+**Περιγραφή**
+
+...
+
+**User Priority: (5/5)** ...
+
+**Technical Priority: (5/5)** ...
+
+#### Ιστορίες Χρηστών
+
+https://...
+
+### ΛΑ-8    *Admin edit ticket price*
+
+...
+
+**Περιγραφή**
+
+...
+
+**User Priority: (5/5)** ...
+
+**Technical Priority: (5/5)** ...
+
+#### Ιστορίες Χρηστών
+
+https://...
+
+### ΛΑ-9    *Admin news feed*
+
+...
+
+**Περιγραφή**
+
+...
+
+**User Priority: (5/5)** ...
+
+**Technical Priority: (5/5)** ...
+
+#### Ιστορίες Χρηστών
+
+https://...
+
+### ΛΑ-10    *Add a friend*
+
+...
+
+**Περιγραφή**
+
+...
+
+**User Priority: (5/5)** ...
+
+**Technical Priority: (5/5)** ...
+
+#### Ιστορίες Χρηστών
+
+https://...
+
+### ΛΑ-11    *Best route*
+
+...
+
+**Περιγραφή**
+
+...
+
+**User Priority: (5/5)** ...
+
+**Technical Priority: (5/5)** ...
+
+#### Ιστορίες Χρηστών
+
+https://...
+
+### ΛΑ-12    *Contact*
+
+...
+
+**Περιγραφή**
+
+...
+
+**User Priority: (5/5)** ...
+
+**Technical Priority: (5/5)** ...
+
+#### Ιστορίες Χρηστών
+
+https://...
+
+### ΛΑ-13    *Feedback*
+
+...
+
+**Περιγραφή**
+
+...
+
+**User Priority: (5/5)** ...
+
+**Technical Priority: (5/5)** ...
+
+#### Ιστορίες Χρηστών
+
+https://...
+
+### ΛΑ-14    *Friend request*
+
+...
+
+**Περιγραφή**
+
+...
+
+**User Priority: (5/5)** ...
+
+**Technical Priority: (5/5)** ...
+
+#### Ιστορίες Χρηστών
+
+https://...
+
+### ΛΑ-15    *Live prediction of arrival*
+
+...
+
+**Περιγραφή**
+
+...
+
+**User Priority: (5/5)** ...
+
+**Technical Priority: (5/5)** ...
+
+#### Ιστορίες Χρηστών
+
+https://...
+
+### ΛΑ-16    *Navigation to station*
+
+...
+
+**Περιγραφή**
+
+...
+
+**User Priority: (5/5)** ...
+
+**Technical Priority: (5/5)** ...
+
+#### Ιστορίες Χρηστών
+
+https://...
+
+### ΛΑ-17    *Nearest station*
+
+...
+
+**Περιγραφή**
+
+...
+
+**User Priority: (5/5)** ...
+
+**Technical Priority: (5/5)** ...
+
+#### Ιστορίες Χρηστών
+
+https://...
+
+### ΛΑ-18    *Newsfeed*
+
+...
+
+**Περιγραφή**
+
+...
+
+**User Priority: (5/5)** ...
+
+**Technical Priority: (5/5)** ...
+
+#### Ιστορίες Χρηστών
+
+https://...
+
+### ΛΑ-19    *Route info per station*
+
+...
+
+**Περιγραφή**
+
+...
+
+**User Priority: (5/5)** ...
+
+**Technical Priority: (5/5)** ...
+
+#### Ιστορίες Χρηστών
+
+https://...
+
+### ΛΑ-20    *Route to favourites*
+
+...
+
+**Περιγραφή**
+
+...
+
+**User Priority: (5/5)** ...
+
+**Technical Priority: (5/5)** ...
+
+#### Ιστορίες Χρηστών
+
+https://...
+
+### ΛΑ-21    *Station to favourites*
+
+...
+
+**Περιγραφή**
+
+...
+
+**User Priority: (5/5)** ...
+
+**Technical Priority: (5/5)** ...
+
+#### Ιστορίες Χρηστών
+
+https://...
+
+### ΛΑ-22    *Station info per route*
+
+...
+
+**Περιγραφή**
+
+...
+
+**User Priority: (5/5)** ...
+
+**Technical Priority: (5/5)** ...
+
+#### Ιστορίες Χρηστών
+
+https://...
+
+### ΛΑ-23    *Tutorial*
+
+...
+
+**Περιγραφή**
+
+...
+
+**User Priority: (5/5)** ...
+
+**Technical Priority: (5/5)** ...
+
+#### Ιστορίες Χρηστών
+
+https://...
+
+### ΛΑ-24    *eTicket buy*
+
+...
+
+**Περιγραφή**
+
+...
+
+**User Priority: (5/5)** ...
+
+**Technical Priority: (5/5)** ...
+
+#### Ιστορίες Χρηστών
+
+https://...
+
+### ΛΑ-25    *eTicket share*
+
+...
+
+**Περιγραφή**
+
+...
+
+**User Priority: (5/5)** ...
+
+**Technical Priority: (5/5)** ...
+
+#### Ιστορίες Χρηστών
+
+https://...
+
+### ΛΑ-26    *eTicket validation*
+
+...
+
+**Περιγραφή**
+
+...
+
+**User Priority: (5/5)** ...
+
+**Technical Priority: (5/5)** ...
+
+#### Ιστορίες Χρηστών
+
+https://...
 
 ## Use case diagram
 

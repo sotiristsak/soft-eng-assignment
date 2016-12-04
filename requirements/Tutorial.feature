@@ -5,8 +5,8 @@ Feature: First-Timers Tutorial
   
 Scenario: First-time Login - Agree
   Given I am in Home Page
-  And I have just made a successful Signup
-  When I Login as a user
+  And I have just made a successful "Signup"
+  When I "Login" as a user
   Then I should be asked if I want to take a tutorial 
   When I press the "Yes" button
   Then I should be shown a Tutorial video with the basic features of the system
@@ -15,8 +15,8 @@ Scenario: First-time Login - Agree
   
 Scenario: First-time Login - Disagree
   Given I am in Home Page
-  And I have just made a successful Signup
-  When I Login as a user
+  And I have just made a successful "Signup"
+  When I "Login" as a user
   Then I should be asked if I want to take a tutorial 
   When I press the "No" button
   Then I should be redirected to the User Home Page
