@@ -7,8 +7,7 @@ Scenario: Enlisting a station to the Favourites section
   Given I am in Home Page
   When I press the "Favourites" button
   Then I should be on the Favourites page
-  Then I should choose "Routes" or "Stations" button
-  When I choose "Stations" button
+  When choose "Stations" button
   Then I should be able to see a list of my Favourites
   And I press the "Add New" button
   Then I should choose from a list which station i want to add in the Favourite list
@@ -21,7 +20,6 @@ Scenario: Already Enlisted
   Given I am in Home Page
   When I press the "Favourites" button
   Then I should be on the Favourites page
-  Then I should choose "Routes" or "Stations" button
   When I choose "Stations" button
   Then I should be able to see a list of my Favourites
   And I press the "Add New" button
