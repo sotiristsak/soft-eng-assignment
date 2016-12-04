@@ -30,3 +30,6 @@ Scenario: Already Enlisted
   Then I press "Add" to enlist them in the Favourite list
   When I get a message that my chosen route is already enlisted in the Favourite Stations
   Then I should be on the Favourites page
+
+
+Afou ekanes 2 periptwseis nomizw den xreiazetai na les Routes or stations button... apo ena koumpi sthn ka8emia
