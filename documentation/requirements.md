@@ -390,13 +390,15 @@ https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/Rout
 Ο χρήστης μπορεί να επιλέξει απο μία λίστα με όλες τις στάσεις την ή τις στάσεις που τον ενδιαφέρουν περισσότερο και να τις καταχωρήσει
 στα αγαπημένα του.
 
-**User Priority: (5/5)** ...
+**User Priority: (5/5)** Η συγκεκριμένη απαίτηση διευκολύνει τον χρήστη γιατί του δύνεται η δυνατότητα να έχει πιο γρήγορη πρόσβαση 
+στις στάσεις που χρησιμοποιεί πιο συχνά.
 
-**Technical Priority: (5/5)** ...
+**Technical Priority: (5/5)** Η υλοποίηση της λειτουργίας αυτής δεν προσδίδει κάποια περαιτέρω λειτουργικότητα στο σύστημα. Εξυπηρετεί
+όμως την ταχύτερη περιήγηση των χρήστων μέσα στο σύστημα.
 
 #### Ιστορίες Χρηστών
 
-https://...
+https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/StationToFavourites.feature
 
 ### ΛΑ-22    *Station info per route*
 
