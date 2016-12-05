@@ -494,7 +494,7 @@ https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/eTic
 
 https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/eTicketShare.feature
 
-### ΛΑ-26    *eTicket validation*
+### ΛΑ-26    *eTicket validate*
 
 Ο χρήστης πρέπει να μπορεί να επικυρώνει ηλεκτρονικά εισιτήρια.
 
