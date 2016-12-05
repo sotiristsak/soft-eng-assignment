@@ -1,4 +1,4 @@
-Feature: e-Ticket Share
+Feature: e-Ticket Buy
   As a user 
   So that I can acquire tickets on the go
   I want to be able to buy tickets online
