@@ -604,7 +604,7 @@ Put the link to the relevant storyboard.md files that display how one goes from 
 επιστέφει στον χρήστη την αρνητική απόκριση του φίλου.
 
 
-### ΜΛΑ-7
+### ΜΛΑ-7    *Search Bar*
 
 Ο χρήστης θα πρέπει να μπορεί να αναζητάει φίλους, διαδρομές και στάσεις.
 
