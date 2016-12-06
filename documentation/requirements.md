@@ -149,7 +149,7 @@ https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/Admi
 **Περιγραφή**
 
 Ο διαχειριστής πρέπει να μπορεί να επεξεργαστεί την τιμή του ηλεκτρονικού εισητηρίου, αυξάνοντας ή μειώνοντας την ώστε να ανταποκρίνεται
-καλύτερα σε τυχόν εξωτερικές αλλαγές του περιβάλλοντος (αύξηση/μείωση ΦΠΑ, κρατικές επιχορηγήσεις, κ.α)
+καλύτερα σε τυχόν εξωτερικές αλλαγές της αγοράς (αύξηση/μείωση ΦΠΑ, κρατικές επιχορηγήσεις, κ.α)
 
 **User Priority: (4/5)** Είναι σημαντικό ο/οι διαχειριστής-ές να έχουν τη δυνατότητα να επεξεργάζονται την τιμή του ηλεκτρονικού
 εισητηρίου, καθώς πληθώρα εξωτερικών παραγόντων μπορεί να καθιστά αναγκαία την αλλαγή της τιμής του εισητηρίου και μάλιστα σε απρόσμενα
@@ -160,7 +160,7 @@ https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/Admi
 
 #### Ιστορίες Χρηστών
 
-https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/AdminEdιtTicketPrice.feature
+https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/AdminEditTicketPrice.feature
 
 ### ΛΑ-9    *Admin news feed*
 
