@@ -5,6 +5,8 @@ Feature: e-Ticket Validation
   
 Scenario: Validate an e-Ticket
   Given I am in Home Page
+  When I press the "Tickets" button
+  Then I should be on the Ticket page
   When I press the "Validate a Ticket" button
   Then I should be on the Validate Ticket page
   And I should be able to see a list of all the tickets i have in my ticket stash
@@ -14,6 +16,8 @@ Scenario: Validate an e-Ticket
   
 Scenario: Ticket not found
   Given I am in Home Page
+  When I press the "Tickets" button
+  Then I should be on the Ticket page
   When I press the "Validate a Ticket" button
   Then I should be on the Validate Ticket page
   And I get a message that my ticket list is empty
