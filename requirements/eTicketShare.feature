@@ -5,6 +5,8 @@ Feature: e-Ticket Share
   
 Scenario: Sharing an e-Ticket
   Given I am in Home Page
+  When I press the "Tickets" button
+  Then I should be on the Ticket page
   When I press the "Share a Ticket" button
   Then I should be on the Share Ticket page
   And I should be able to see a list of all the tickets i have in my ticket stash
@@ -15,6 +17,8 @@ Scenario: Sharing an e-Ticket
   
 Scenario: Ticket not found
   Given I am in Home Page
+  When I press the "Tickets" button
+  Then I should be on the Ticket page
   When I press the "Share a Ticket" button
   Then I should be on the Share Ticket page
   And I get a message that my ticket list is empty
@@ -28,6 +32,8 @@ Scenario: Ticket not found
 
 Scenario: Friend not found
   Given I am in Home Page
+  When I press the "Tickets" button
+  Then I should be on the Ticket page
   When I press the "Share a Ticket" button
   Then I should be on the Share Ticket page
   And I should be able to see a list of all the tickets i have in my ticket stash
