@@ -11,4 +11,4 @@
           
 * - [ ] README.md
 
-login, signup, administrator, checkbox
+login, signup, administrator, checkbox, slider, drop down menu
