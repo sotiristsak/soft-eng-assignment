@@ -7,7 +7,6 @@ Scenario: Buy an e-Ticket - Successful
   Given I am in Home Page
   When I press the "Tickets" button
   Then I should be on the Ticket page
-  And I should be able to see a list of all the tickets i have in my ticket stash
   When I press the "Buy Tickets" button
   Then I should get a list of all the available tickets
   When I select a ticket 
@@ -23,7 +22,6 @@ Scenario: Buy an e-Ticket - Unsuccessful
   Given I am in Home Page
   When I press the "Tickets" button
   Then I should be on the Ticket page
-  And I should be able to see a list of all the tickets i have in my ticket stash
   When I press the "Buy Tickets" button
   Then I should get a list of all the available tickets
   When I select a ticket 
