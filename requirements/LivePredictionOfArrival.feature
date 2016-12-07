@@ -17,3 +17,4 @@ Scenario: Getting Live prediction of route's arrival at a specific station - No 
   Then I should get a list of all the available stations alphabetically
   When I choose a station
   Then I should get a message informing me that there is no route scheduled for this station in the next hour
+  Then I should get a list of all the available stations alphabetically
