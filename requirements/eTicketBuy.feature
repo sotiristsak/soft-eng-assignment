@@ -11,7 +11,7 @@ Scenario: Buy an e-Ticket - Successful
   Then I should get a list of all the available tickets
   When I select a ticket 
   And I select the quantity
-  And I press the "Buy" button
+  And I press the "Purchase" button
   Then I should be on the Purchase page
   When I fill "Credit Card Number", "Owner" and "CVV number"
   And I press the "Confirm" button
@@ -26,7 +26,7 @@ Scenario: Buy an e-Ticket - Unsuccessful
   Then I should get a list of all the available tickets
   When I select a ticket 
   And I select the quantity
-  And I press the "Buy" button
+  And I press the "Purchase" button
   Then I should be on the Purchase page
   When I fill "Credit Card Number", "Owner" and "CVV number"
   And I press the "Confirm" button
