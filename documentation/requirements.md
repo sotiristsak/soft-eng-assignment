@@ -276,7 +276,7 @@ https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/Feed
 
 https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/FriendRequest.feature
 
-### ΛΑ-15    *Live prediction of arrival*
+### ΛΑ-15    *Arrival*
 
 Ο χρήστης πρέπει να μπορεί να λαμβάνει live προβλέψεις αφίξεων λεωφορείων σε μία στάση.
 
@@ -316,7 +316,7 @@ https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/Arri
 
 https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/NavigationToStation.feature
 
-### ΛΑ-17    *Nearest station*
+### ΛΑ-17    *Nearby*
 
 Ο χρήστης πρέπει να μπορεί να ενημερώνεται για τις κοντινότερες σε αυτόν στάσεις.
 
