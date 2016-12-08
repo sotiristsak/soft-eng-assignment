@@ -295,7 +295,7 @@ https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/Frie
 
 #### Ιστορίες Χρηστών
 
-https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/LivePredictionOfArrival.feature
+https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/Arrival.feature
 
 ### ΛΑ-16    *Navigation to station*
 
