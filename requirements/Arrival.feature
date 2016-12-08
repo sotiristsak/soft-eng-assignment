@@ -5,7 +5,7 @@ Feature: Getting Live prediction of route's arrival at a specific station
 
 Scenario: Getting Live prediction of route's arrival at a specific station
   Given I am in Home Page
-  When I press the "Live Prediction" button
+  When I press the "Arrival" button
   Then I should get a list of all the available stations alphabetically
   When I choose a station
   Then I should get a list of all the routes that are arriving at the chosen station 
@@ -13,7 +13,7 @@ Scenario: Getting Live prediction of route's arrival at a specific station
   
 Scenario: Getting Live prediction of route's arrival at a specific station - No routes schedules for the next hour
   Given I am in Home Page
-  When I press the "Live Prediction" button
+  When I press the "Arrival" button
   Then I should get a list of all the available stations alphabetically
   When I choose a station
   Then I should get a message informing me that there is no route scheduled for this station in the next hour
