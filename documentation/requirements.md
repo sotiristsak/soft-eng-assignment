@@ -531,11 +531,6 @@ Representation of all users and user stories/use cases
 
 ![GitHub Logo](/resources/best route.jpg)
 
-***
->**eTickets:**
-
-![GitHub Logo](/resources/etickets_final.jpg)
-
 
 ## Mockups and Storyboards
 
