@@ -547,7 +547,7 @@ Representation of all users and user stories/use cases
 
 >**Navigate to Station:**
 
-![GitHub Logo](/resources/naviate to station.jpg)
+![GitHub Logo](/resources/navigate to station.jpg)
 
 ***
 
