@@ -521,7 +521,8 @@ Representation of all users and user stories/use cases
 
 ## Activity diagrams
 
-Create activity diagrams to portray the flow of basic user process in the system.
+**Live prediction of arrival**
+https://github.com/sotiristsak/soft-eng-assignment/blob/master/resources/arrival.jpg
 
 ## Mockups and Storyboards
 
