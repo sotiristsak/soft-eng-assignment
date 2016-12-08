@@ -525,6 +525,10 @@ Representation of all users and user stories/use cases
 
 ![GitHub Logo](/resources/arrival.jpg)
 
+**Best route:**
+
+![GitHub Logo](/resources/best route.jpg)
+
 ## Mockups and Storyboards
 
 Put the link to the relevant storyboard.md files that display how one goes from one mockup to another.
