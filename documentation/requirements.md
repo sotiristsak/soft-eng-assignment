@@ -524,6 +524,9 @@ Representation of all users and user stories/use cases
 **Live prediction of arrival:**
 https://github.com/sotiristsak/soft-eng-assignment/blob/master/resources/arrival.jpg
 
+![GitHub Logo](/resources/arrival.jpg)
+Format: ![Alt Text](url)
+
 ## Mockups and Storyboards
 
 Put the link to the relevant storyboard.md files that display how one goes from one mockup to another.
