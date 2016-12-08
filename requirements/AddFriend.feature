@@ -5,7 +5,8 @@ Feature: Enlisting a registered user as a Friend
   
 Scenario: Adding a friend 
   Given I am in Home Page
-  When I press the "Add Friend" button
+  When I swipe right
+  When I press the "Add a new Friend" button
   Then I should be on the Add Friend page
   And I should be able to fill the "ID", "email" or "phone number" frames
   When I fill at least one of the frames
@@ -15,7 +16,8 @@ Scenario: Adding a friend
   
 Scenario: ID not found
   Given I am in Home Page
-  When I press the "Add Friend" button
+  When I swipe right
+  When I press the "Add a new Friend" button
   Then I should be on the Add Friend page
   And I should be able to fill the "ID", "email" or "phone number" frames
   When I fill at least one of the frames
@@ -27,7 +29,8 @@ Scenario: ID not found
   
 Scenario: Email not found
   Given I am in Home Page
-  When I press the "Add Friend" button
+  When I swipe right
+  When I press the "Add a new Friend" button
   Then I should be on the Add Friend page
   And I should be able to fill the "ID", "email" or "phone number" frames
   When I fill at least one of the frames
@@ -39,7 +42,8 @@ Scenario: Email not found
   
 Scenario: Phone number not found
   Given I am in Home Page
-  When I press the "Add Friend" button
+  When I swipe right
+  When I press the "Add a new Friend" button
   Then I should be on the Add Friend page
   And I should be able to fill the "ID", "email" or "phone number" frames
   When I fill at least one of the frames
