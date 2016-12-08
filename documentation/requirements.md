@@ -521,7 +521,7 @@ Representation of all users and user stories/use cases
 
 ## Activity diagrams
 
-**Live prediction of arrival**
+**Live prediction of arrival:**
 https://github.com/sotiristsak/soft-eng-assignment/blob/master/resources/arrival.jpg
 
 ## Mockups and Storyboards
