@@ -5,7 +5,9 @@ Feature: Getting News and Announcements
 
 Scenario: Getting News and Announcements
   Given I am in Home Page
-  When I press the "News" button
-  Then I should be on the News and Announcements page
+  When I swipe left
+  Then I should get the top News and Announcements
+  When I press the "+read more" button
+  Then I should be in the Newsfeed page
   And I should get a list of all the News and Announcements of the Company ordered chronologically
   And the date that each news or announcement was made
