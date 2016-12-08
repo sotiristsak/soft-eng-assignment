@@ -551,7 +551,7 @@ Representation of all users and user stories/use cases
 
 ***
 
->**Nearest station:**
+>**Nearby:**
 
 ![GitHub Logo](/resources/nearby.jpg)
 
