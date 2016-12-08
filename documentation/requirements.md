@@ -565,6 +565,9 @@ https://github.com/sotiristsak/soft-eng-assignment/blob/master/documentation/sto
 **Nearby:**
 https://github.com/sotiristsak/soft-eng-assignment/blob/master/documentation/storyboard_nearby.md
 
+**Newsfeed:**
+https://github.com/sotiristsak/soft-eng-assignment/blob/master/documentation/storyboard_newsfeed.md
+
 ## Μη Λειτουργικές Απαιτήσεις
 
 ### ΜΛΑ-1    *Bus on Map*
