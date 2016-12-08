@@ -559,7 +559,8 @@ Representation of all users and user stories/use cases
 
 ## Mockups and Storyboards
 
-Put the link to the relevant storyboard.md files that display how one goes from one mockup to another.
+**Add friend:**
+https://github.com/sotiristsak/soft-eng-assignment/blob/master/documentation/storyboard_add_friend.md
 
 ## Μη Λειτουργικές Απαιτήσεις
 
