@@ -1,6 +1,6 @@
 # Add friend
 
-![GitHub Logo](/resources/nearby.jpg)
+![GitHub Logo](/resources/storyboard_add_friend.jpg)
 
 ***
 
