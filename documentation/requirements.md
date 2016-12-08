@@ -531,6 +531,12 @@ Representation of all users and user stories/use cases
 
 ![GitHub Logo](/resources/best route.jpg)
 
+***
+
+>**eTickets:**
+
+![GitHub Logo](/resources/eTickets_final.jpg)
+
 ## Mockups and Storyboards
 
 Put the link to the relevant storyboard.md files that display how one goes from one mockup to another.
