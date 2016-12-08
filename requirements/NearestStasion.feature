@@ -5,15 +5,15 @@ Feature: Finding the Nearest Station
 
 Scenario: Finding the Nearest Station
   Given I am in Home Page
-  When I press the "Nearest Station" button
-  Then I should be on the Nearest Station page
+  When I press the "Nearby" button
+  Then I should be on the Nearby page
   Then I should get a list of all the nearest stations withing a kilometer limitation
 
 
 Scenario: GPS needed
   Given I am in Home Page
-  When I press the "Nearest Station" button
-  Then I should be on the Nearest Station page
+  When I press the "Nearby" button
+  Then I should be on the Nearby page
   And I get a message informing me of poor signal and potential failure
   And I should be led to allow access of my GPS and refresh the page 
   Then I should get a list of all the nearest stations withing a kilometer limitation
@@ -21,8 +21,8 @@ Scenario: GPS needed
 
 Scenario: Kilometer limitation
   Given I am in Home Page
-  When I press the "Nearest Station" button
-  Then I should be on the Nearest Station page
+  When I press the "Nearby" button
+  Then I should be on the Nearby page
   And I have already allowed access to my GPS
   Then I get a message informing me that i am outside of any station's range
   And I should change my limitation parameters
