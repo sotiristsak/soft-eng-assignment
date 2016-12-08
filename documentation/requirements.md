@@ -429,7 +429,7 @@ https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/Stat
 
 #### Ιστορίες Χρηστών
 
-https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/StationInfoPerRoute.feature
+https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/StationsInfoPerRoute.feature
 
 ### ΛΑ-23    *Tutorial*
 
