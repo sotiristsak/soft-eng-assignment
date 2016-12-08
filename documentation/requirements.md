@@ -562,6 +562,9 @@ Representation of all users and user stories/use cases
 **Add friend:**
 https://github.com/sotiristsak/soft-eng-assignment/blob/master/documentation/storyboard_add_friend.md
 
+**Nearby:**
+https://github.com/sotiristsak/soft-eng-assignment/blob/master/documentation/storyboard_nearby.md
+
 ## Μη Λειτουργικές Απαιτήσεις
 
 ### ΜΛΑ-1    *Bus on Map*
