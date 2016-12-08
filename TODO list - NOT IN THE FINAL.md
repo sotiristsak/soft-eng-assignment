@@ -11,4 +11,4 @@
           
 * - [ ] README.md
 
-login, signup, administrator, checkbox, slider, drop down menu, toggle button (θέση on, θέση off)
+login, signup, administrator, checkbox, slider, drop down menu, toggle button (θέση on, θέση off), swipe left - right
