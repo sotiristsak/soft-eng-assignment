@@ -5,7 +5,8 @@ Feature: Feedbacks
 
 Scenario: View feedback
   Given I am in Home Page
-  When I press the "Feedback" button
+  When I swipe left
+  And I press the "proceed to more feedback" button
   Then I should be on the Feedbacks page
   And I should get a list of every route ordered alphabetically
   When I press a route
@@ -14,7 +15,8 @@ Scenario: View feedback
   
 Scenario: Post feedback
   Given I am in Home Page
-  When I press the "Feedback" button
+  When I swipe left
+  And I press the "proceed to more feedback" button
   Then I should be on the Feedbacks page
   And I should get a list of every route ordered alphabetically
   When I press a route
