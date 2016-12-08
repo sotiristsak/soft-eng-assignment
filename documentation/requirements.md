@@ -521,11 +521,13 @@ Representation of all users and user stories/use cases
 
 ## Activity diagrams
 
-**Live prediction of arrival:**
+>**Live prediction of arrival:**
 
 ![GitHub Logo](/resources/arrival.jpg)
 
-**Best route:**
+***
+
+>**Best route:**
 
 ![GitHub Logo](/resources/best route.jpg)
 
