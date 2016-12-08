@@ -543,6 +543,20 @@ Representation of all users and user stories/use cases
 
 ![GitHub Logo](/resources/info.jpg)
 
+***
+
+>**Navigate to Station:**
+
+![GitHub Logo](/resources/navigate to station.jpg)
+
+***
+
+>**Nearest station:**
+
+![GitHub Logo](/resources/nearby.jpg)
+
+***
+
 ## Mockups and Storyboards
 
 Put the link to the relevant storyboard.md files that display how one goes from one mockup to another.
