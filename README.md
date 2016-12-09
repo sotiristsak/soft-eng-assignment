@@ -1,4 +1,4 @@
-# Title
+# BusLine Blink
 
 ## Συγγραφείς
 
@@ -23,7 +23,7 @@
    * [Newsfeed](https://github.com/sotiristsak/soft-eng-assignment/blob/master/documentation/storyboard_newsfeed.md)
 3. [Requirements](https://github.com/sotiristsak/soft-eng-assignment/tree/master/requirements)
    * [Add Friend](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/AddFriend.feature)
-   * [Admin Access to Feedbak](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/AdminAccessToFeedBack.feature)
+   * [Administrator Access to Feedbak](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/AdminAccessToFeedBack.feature)
    * [Administrator Create a Route](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/AdminCreateARoute.feature)
    * [Administrator Create a Station](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/AdminCreateAStation.feature)
    * [Administrator Edit a Route](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/AdminEditARoute.feature)
