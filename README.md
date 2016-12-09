@@ -23,5 +23,32 @@
    * [Newsfeed](https://github.com/sotiristsak/soft-eng-assignment/blob/master/documentation/storyboard_newsfeed.md)
 3. [Requirements](https://github.com/sotiristsak/soft-eng-assignment/tree/master/requirements)
    * [Add Friend](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/AddFriend.feature)
+   * [Admin Access to Feedbak](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/AdminAccessToFeedBack.feature)
+   * [Administrator Create a Route](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/AdminCreateARoute.feature)
+   * [Administrator Create a Station](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/AdminCreateAStation.feature)
+   * [Administrator Edit a Route](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/AdminEditARoute.feature)
+   * [Administrator Edit Ticket Price](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/AdminEditTicketPrice.feature)
+   * [Administrator NewsFeed](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/AdminNewsFeed.feature)
+   * [Arrival](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/Arrival.feature)
+   * [Best Route](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/BestRoute.feature)
+   * [Contact](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/Contact.feature)
+   * [Feedback](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/Feedback.feature)
+   * [Friend Request](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/FriendRequest.feature)
+   
 
 
+Login.feature	Rename FR1.feature to Login.feature	8 days ago
+Logout.feature	Update Logout.feature	14 days ago
+NavigationToStation.feature	Create NavigationToStation.feature	7 days ago
+NearestStasion.feature	Update NearestStasion.feature	a day ago
+NewsFeed.feature	Update NewsFeed.feature	a day ago
+RouteInfoPerStation.feature	Create RouteInfoPerStation.feature	7 days ago
+RouteToFavourites.feature	Update RouteToFavourites.feature	5 days ago
+Signup.feature	Rename FR2.feature to Signup.feature	5 days ago
+StationToFavourites.feature	Update StationToFavourites.feature	5 days ago
+StationsInfoPerRoute.feature	Update and rename infoStasewnAnagrammh.feature to StationsInfoPerRout…	14 days ago
+Tutorial.feature	Update Tutorial.feature	5 days ago
+demo.feature	Update demo.feature	29 days ago
+eTicketBuy.feature	Update eTicketBuy.feature	2 days ago
+eTicketShare.feature	Update eTicketShare.feature	4 days ago
+eTicketValidate.feature	Update eTicketValidate.feature	4 days ago
