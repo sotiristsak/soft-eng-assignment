@@ -16,3 +16,4 @@
 Links to the documents you have created
 
   1. [Εισαγωγή](https://github.com/sotiristsak/soft-eng-assignment/blob/master/documentation/intro.md)
+  2. [Απαιτήσεις](https://github.com/sotiristsak/soft-eng-assignment/blob/master/documentation/requirements.md)
