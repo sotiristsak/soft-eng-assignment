@@ -1,4 +1,4 @@
-Feature: Finding the Nearest Station
+Feature: Nearby
   As a user 
   So that i can get informed about the nearest station
   I want to see a list of the nearest stations based on some kilometer limitation
