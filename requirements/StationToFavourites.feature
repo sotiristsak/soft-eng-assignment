@@ -5,7 +5,9 @@ Feature: Enlisting a station to the Favourites section
   
 Scenario: Enlisting a station to the Favourites section
   Given I am in Home Page
-  When I press the "Favourites" button
+  When I swipe right
+  Then I shoud see the Favourites list
+  When I press the "+more" button
   Then I should be on the Favourites page
   When choose "Stations" button
   Then I should be able to see a list of my Favourites
@@ -18,7 +20,9 @@ Scenario: Enlisting a station to the Favourites section
 
 Scenario: Already Enlisted
   Given I am in Home Page
-  When I press the "Favourites" button
+  When I swipe right
+  Then I shoud see the Favourites list
+  When I press the "+more" button
   Then I should be on the Favourites page
   When I choose "Stations" button
   Then I should be able to see a list of my Favourites
