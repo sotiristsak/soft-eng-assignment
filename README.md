@@ -21,3 +21,7 @@
    * [Info Route](https://github.com/sotiristsak/soft-eng-assignment/blob/master/documentation/storyboard_info_route.md)
    * [Nearby](https://github.com/sotiristsak/soft-eng-assignment/blob/master/documentation/storyboard_nearby.md)
    * [Newsfeed](https://github.com/sotiristsak/soft-eng-assignment/blob/master/documentation/storyboard_newsfeed.md)
+3. [Requirements](https://github.com/sotiristsak/soft-eng-assignment/tree/master/requirements)
+   * [Add Friend](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/AddFriend.feature)
+
+
