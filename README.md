@@ -21,3 +21,9 @@ Links to the documents you have created
     *dsfsd
   ..* dfsfadf
   ⋅⋅* [Add Friend](https://github.com/sotiristsak/soft-eng-assignment/blob/master/documentation/storyboard_add_friend.md) 
+
+1. Item 1
+2. Item 2
+3. Item 3
+   * Item 3a
+   * Item 3b
