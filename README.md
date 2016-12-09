@@ -33,22 +33,17 @@
    * [Best Route](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/BestRoute.feature)
    * [Contact](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/Contact.feature)
    * [Feedback](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/Feedback.feature)
-   * [Friend Request](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/FriendRequest.feature)
-   
-
-
-Login.feature	Rename FR1.feature to Login.feature	8 days ago
-Logout.feature	Update Logout.feature	14 days ago
-NavigationToStation.feature	Create NavigationToStation.feature	7 days ago
-NearestStasion.feature	Update NearestStasion.feature	a day ago
-NewsFeed.feature	Update NewsFeed.feature	a day ago
-RouteInfoPerStation.feature	Create RouteInfoPerStation.feature	7 days ago
-RouteToFavourites.feature	Update RouteToFavourites.feature	5 days ago
-Signup.feature	Rename FR2.feature to Signup.feature	5 days ago
-StationToFavourites.feature	Update StationToFavourites.feature	5 days ago
-StationsInfoPerRoute.feature	Update and rename infoStasewnAnagrammh.feature to StationsInfoPerRout…	14 days ago
-Tutorial.feature	Update Tutorial.feature	5 days ago
-demo.feature	Update demo.feature	29 days ago
-eTicketBuy.feature	Update eTicketBuy.feature	2 days ago
-eTicketShare.feature	Update eTicketShare.feature	4 days ago
-eTicketValidate.feature	Update eTicketValidate.feature	4 days ago
+   * [Login](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/Login.feature)
+   * [Logout](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/Logout.feature)
+   * [Navigation to Station](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/NavigationToStation.feature)
+   * [Nearest Station](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/NearestStasion.feature)
+   * [NewsFeed](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/NewsFeed.feature)
+   * [Route's info per Station](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/RouteInfoPerStation.feature)
+   * [Route to Favourites](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/RouteToFavourites.feature)
+   * [Signup](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/Signup.feature)
+   * [Station to Favourites](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/StationToFavourites.feature)
+   * [Stations' info per Route](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/StationsInfoPerRoute.feature)
+   * [Tutorial](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/Tutorial.feature)
+   * [Buy eTicket](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/eTicketBuy.feature)
+   * [Share eTicket](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/eTicketShare.feature)
+   * [Validate eTicket](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/eTicketValidate.feature)
