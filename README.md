@@ -17,4 +17,7 @@
 2. [Απαιτήσεις Χρηστών](https://github.com/sotiristsak/soft-eng-assignment/blob/master/documentation/requirements.md)
 3. Storyboards
    * [Add Friend](https://github.com/sotiristsak/soft-eng-assignment/blob/master/documentation/storyboard_add_friend.md)
-   * Item 3b
+   * [Arrival](https://github.com/sotiristsak/soft-eng-assignment/blob/master/documentation/storyboard_arrival.md)
+   * [Info Route](https://github.com/sotiristsak/soft-eng-assignment/blob/master/documentation/storyboard_info_route.md)
+   * [Nearby](https://github.com/sotiristsak/soft-eng-assignment/blob/master/documentation/storyboard_nearby.md)
+   * [Newsfeed](https://github.com/sotiristsak/soft-eng-assignment/blob/master/documentation/storyboard_newsfeed.md)
