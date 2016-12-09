@@ -314,7 +314,7 @@ https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/Arri
 
 #### Ιστορίες Χρηστών
 
-https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/NavigationToStation.feature
+https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/Navigate.feature
 
 ### ΛΑ-17    *Nearby*
 
@@ -333,7 +333,7 @@ https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/Navi
 
 #### Ιστορίες Χρηστών
 
-https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/NearestStasion.feature
+https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/Nearby.feature
 
 ### ΛΑ-18    *Newsfeed*
 
