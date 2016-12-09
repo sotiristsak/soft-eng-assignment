@@ -5,7 +5,9 @@ Feature: Enlisting a route to the Favourites section
   
 Scenario: Enlisting a route to the Favourites section
   Given I am in Home Page
-  When I press the "Favourites" button
+  When I swipe right
+  Then I should see the Favourites list
+  When I press the "+more" button
   Then I should be on the Favourites page
   When I choose "Routes" button
   Then I should be able to see a list of my Favourites
@@ -18,7 +20,9 @@ Scenario: Enlisting a route to the Favourites section
 
 Scenario: Already Enlisted
   Given I am in Home Page
-  When I press the "Favourites" button
+  When I swipe right
+  Then I should see the Favourites list
+  When I press the "+more" button
   Then I should be on the Favourites page
   When I choose "Routes" button
   Then I should be able to see a list of my Favourites
