@@ -1,11 +1,11 @@
-Feature: Navigation to Specific Station
+Feature: Navigate
   As a user 
   So that i can get to any station
   I want to be able to get navigated to any station by the system
 
 Scenario: Navigation to Specific Station
   Given I am in Home Page
-  When I press the "Navigate to Station" button
+  When I press the "Navigate" button
   Then I should get a list of all the stations
   When I choose a station
   And press the "Navigate" button
@@ -13,7 +13,7 @@ Scenario: Navigation to Specific Station
 
 Scenario: GPS needed
   Given I am in Home Page
-  When I press the "Navigate to Station" button
+  When I press the "Navigate" button
   Then I should get a list of all the stations
   When I choose a station
   And press the "Navigate" button
@@ -24,7 +24,7 @@ Scenario: GPS needed
 
 Scenario: Navigator not found
   Given I am in Home Page
-  When I press the "Navigate to Station" button
+  When I press the "Navigate" button
   Then I should get a list of all the stations
   When I choose a station
   And press the "Navigate" button
