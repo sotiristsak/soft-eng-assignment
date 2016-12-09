@@ -568,6 +568,10 @@ https://github.com/sotiristsak/soft-eng-assignment/blob/master/documentation/sto
 **Newsfeed:**
 https://github.com/sotiristsak/soft-eng-assignment/blob/master/documentation/storyboard_newsfeed.md
 
+**Arrival:**
+https://github.com/sotiristsak/soft-eng-assignment/blob/master/documentation/storyboard_arrival.md
+
+
 ## Μη Λειτουργικές Απαιτήσεις
 
 ### ΜΛΑ-1    *Bus on Map*
