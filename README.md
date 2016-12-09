@@ -22,8 +22,8 @@ Links to the documents you have created
   ..* dfsfadf
   ⋅⋅* [Add Friend](https://github.com/sotiristsak/soft-eng-assignment/blob/master/documentation/storyboard_add_friend.md) 
 
-1. Item 1
-2. Item 2
-3. Item 3
-   * Item 3a
+1. [Εισαγωγή](https://github.com/sotiristsak/soft-eng-assignment/blob/master/documentation/intro.md)
+2. [Απαιτήσεις Χρηστών](https://github.com/sotiristsak/soft-eng-assignment/blob/master/documentation/requirements.md)
+3. Storyboards
+   * [Add Friend](https://github.com/sotiristsak/soft-eng-assignment/blob/master/documentation/storyboard_add_friend.md)
    * Item 3b
