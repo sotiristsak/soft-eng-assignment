@@ -571,6 +571,9 @@ https://github.com/sotiristsak/soft-eng-assignment/blob/master/documentation/sto
 **Arrival:**
 https://github.com/sotiristsak/soft-eng-assignment/blob/master/documentation/storyboard_arrival.md
 
+**Info route:**
+https://github.com/sotiristsak/soft-eng-assignment/blob/master/documentation/storyboard_info_route.md
+
 
 ## Μη Λειτουργικές Απαιτήσεις
 
