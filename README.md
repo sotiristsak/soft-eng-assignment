@@ -32,6 +32,9 @@
    * [Arrival](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/Arrival.feature)
    * [Best Route](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/BestRoute.feature)
    * [Contact](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/Contact.feature)
+   * [eTicket Buy](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/eTicketBuy.feature)
+   * [eTicket Share](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/eTicketShare.feature)
+   * [eTicket Validate](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/eTicketValidate.feature)
    * [Feedback](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/Feedback.feature)
    * [Login](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/Login.feature)
    * [Logout](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/Logout.feature)
@@ -44,6 +47,4 @@
    * [Station to Favourites](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/StationToFavourites.feature)
    * [Stations' info per Route](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/StationsInfoPerRoute.feature)
    * [Tutorial](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/Tutorial.feature)
-   * [eTicket Buy](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/eTicketBuy.feature)
-   * [eTicket Share](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/eTicketShare.feature)
-   * [eTicket Validate](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/eTicketValidate.feature)
+   
