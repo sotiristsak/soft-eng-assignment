@@ -618,7 +618,7 @@ https://github.com/sotiristsak/soft-eng-assignment/blob/master/documentation/sto
 
 ### ΜΛΑ-4    *Friendlist*
 
-Ο χρήστης θα πρέπει να μπορεί να έχει πρόσβαση στην λίστα τον φίλων του (Friendlist).
+Ο χρήστης θα πρέπει να μπορεί να έχει πρόσβαση στην λίστα τον φίλων του (Friendlist), η οποία θα είναι δομημένη σαν μια IconListView.
 
 **Περιγραφή**
 
@@ -629,7 +629,7 @@ https://github.com/sotiristsak/soft-eng-assignment/blob/master/documentation/sto
 
 ### ΜΛΑ-5    *Favourites*
 
-Ο χρήστης θα πρέπει να μπορεί να έχει πρόσβαση στην λίστα με τα αγαπημένα του (Favourites).
+Ο χρήστης θα πρέπει να μπορεί να έχει πρόσβαση στην λίστα με τα αγαπημένα του (Favourites), η οποία θα είναι δομημένη σαν μια IconListView και θα έχει αύξουσα ταξινόμηση.
 
 **Περιγραφή**
 
