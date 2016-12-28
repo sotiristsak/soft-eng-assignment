@@ -517,7 +517,7 @@ https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/eTic
 
 ## Use case diagram
 
-Representation of all users and user stories/use cases
+![GitHub Logo](/resources/UML use case BUSLINE BLINK.png)
 
 ## Activity diagrams
 
