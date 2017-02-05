@@ -1,0 +1,662 @@
+# Example YAML to get you started quickly.
+# Be aware that YAML has indentation based scoping.
+# Code completion support is available so start typing for available options.
+swagger: '2.0'
+
+# This is your document metadata
+info:
+  version: "0.0.0"
+  title: <BUSLINE BLINK>
+
+consumes: 
+  - application/json
+produces:
+  - application/json
+
+definitions:
+  user:
+    type: object
+    required:
+      - id
+      - name
+      - email
+      - dateofbirth
+      - phonenumber
+      - location
+    properties:
+      id:
+        type: integer
+        format: int64
+      name:
+        type: string
+      email:
+        type: string
+      dateofbirth:
+        type: string
+        format: date
+      phonenumber:
+        type: integer
+        format: int64
+      location:
+        type: number
+        format: float
+  newUser:
+    type: object
+    required:
+      - name
+      - email
+      - dateofbirth
+      - phonenumber
+      - location
+    properties:
+      name:
+        type: string
+      email:
+        type: string
+      dateofbirth:
+        type: string
+        format: date
+      phonenumber:
+        type: integer
+        format: int64
+      location:
+        type: number
+        format: float
+ 
+  ticket:
+    type: object
+    required:
+      - id
+      - type
+      - price
+      - validationStatus
+      - remainingTime
+    properties:
+      id:
+        type: integer
+        format: int64
+      type:
+        type: string
+      price:
+        type: number
+        format: float
+      validationStatus:
+        type: boolean
+      remainingTime:
+        type: string
+        format: date-time
+  newTicket:
+    type: object
+    required:
+      - type
+      - price
+      - validationStatus
+      - remainingTime
+    properties:
+      type:
+        type: string
+      price:
+        type: number
+        format: float
+      validationStatus:
+        type: boolean
+      remainingTime:
+        type: string
+        format: date-time
+ 
+  ticketDB:
+    type: object
+    required:
+      - type
+    properties:
+      type:
+        type: string
+      
+        
+  feedback:
+    type: object
+    required:
+      - id
+      - type
+      - date
+      - text
+    properties:
+      id:
+        type: integer
+        format: int64
+      type:
+        type: string
+      date:
+        type: string
+        format: date
+      text:
+        type: string
+      
+  newsfeed:
+    type: object
+    required:
+      - id
+      - date
+      - text
+    properties:
+      id:
+        type: integer
+        format: int64
+      date:
+        type: string
+        format: date
+      text:
+        type: string
+  newNewsfeed:
+    type: object
+    required:
+      - date
+      - text
+    properties:
+      date:
+        type: string
+        format: date
+      text:
+        type: string
+  
+  friend:
+    type: object
+    required:
+      - id
+      - location
+    properties:
+      id:
+        type: integer
+        format: int64
+      location:
+        type: number
+        format: float
+
+  route:
+    type: object
+    required:
+      - id
+      - name
+      - location
+      - favourite
+    properties:
+      id:
+        type: integer
+        format: int64
+      name:
+        type: string
+      location:
+        type: number
+        format: float
+      favourite:
+        type: boolean
+  newRoute:
+    type: object
+    required:
+      - name
+      - location
+      - favourite
+    properties:
+      name:
+        type: string
+      location:
+        type: number
+        format: float
+      favourite:
+        type: boolean
+  
+  station:
+    type: object
+    required:
+      - id
+      - name
+      - location
+      - favourite
+    properties:
+      id:
+        type: integer
+        format: int64
+      name:
+        type: string
+      location:
+        type: number
+        format: float
+      favourite:
+        type: boolean
+  newStation:
+    type: object
+    required:
+      - name
+      - location
+      - favourite
+    properties:
+      name:
+        type: string
+      location:
+        type: number
+        format: float
+      favourite:
+        type: boolean
+        
+        
+# Describe your paths here
+paths:
+  # This is a path endpoint. Change it.
+  /Users:
+    get:
+      description: Gets all the users
+      parameters:
+        - name: _sort
+          in: query
+          required: false
+          type: string
+        - name: _order
+          in: query
+          required: false
+          type: string
+      responses:
+        200:
+          description: Users succesfully retrieved
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/user'
+        404:
+          description: Users not found
+    post:
+      description: Create a new user
+      operationId: addUser
+      parameters:
+        - name: user
+          in: body
+          required: true
+          description: User to add
+          schema:
+            $ref: '#/definitions/newUser'
+      responses:
+        201:
+          description: User created
+  
+  /Feedback:
+    post:
+      description: Create a new feedback about a route or station
+      operationId: addFeedback
+      parameters:
+        - name: feedback
+          in: body
+          required: true
+          description: Feedback to add
+          schema:
+            $ref: '#/definitions/feedback'
+      responses:
+        201:
+          description: Feedback created
+  /Newsfeed:
+    get:
+      description: Gets all the newsfeed entries
+      parameters:
+        - name: _sort
+          in: query
+          required: false
+          type: string
+        - name: _order
+          in: query
+          required: false
+          type: string
+      responses:
+        200:
+          description: NewsFeed succesfully retrieved
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/newsfeed'
+        404:
+          description: Newsfeed not found
+  /Routes:
+    get:
+      description: Get a list with all Routes
+      parameters:
+        - name: _sort
+          in: query
+          required: false
+          type: string
+        - name: _order
+          in: query
+          required: false
+          type: string
+      responses:
+        200:
+          description: Routes succesfully retrieved
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/route'
+        404:
+          description: Routes not found
+  /Routes/{routeID}:
+    parameters:
+      - name: routeID
+        in: path
+        required: true
+        type: integer
+        format: int64
+    get:
+      description: Get all stations for route *routeID* 
+      responses:
+        200:
+          description: Stations for route *routeID* succesfully retrieved
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/station'
+        404:
+          description: Station for this id not found
+  /Stations:
+    get:
+      description: Gets all the Stations
+      parameters:
+        - name: _sort
+          in: query
+          required: false
+          type: string
+        - name: _order
+          in: query
+          required: false
+          type: string
+        - name: radius
+          description: Kilometer limitation
+          in: query
+          required: false
+          type: string
+      responses:
+        200:
+          description: Stations succesfully retrieved
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/station'
+        404:
+          description: Stations not found
+  /Stations/{stationID}:
+    parameters:
+      - name: stationID
+        in: path
+        required: true
+        type: integer
+        format: int64
+    get:
+      description: Get information about the station with ID *stationID* in order to navigate there
+      responses:
+        200:
+          description: Get a station's location with *stationID*
+          schema:
+            $ref: '#/definitions/station/properties/location'
+        404:
+          description: Station for this id not found
+  /Stations/arrival/{desiredStationID}:
+    parameters:
+      - name: desiredStationID
+        description: Give a station ID to search for all routes that pass through that station
+        in: path
+        required: true
+        type: integer
+        format: int64
+    get:
+      description: Get all routes locations to compare with desiredStation *desiredStation* and calculate the estimated time of arrival
+      responses:
+        200:
+          description: Get routes' locations
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/route/properties/location'
+  /Friends:
+    # This is a HTTP operation
+    get:
+      # Describe this verb here. Note: you can use markdown
+      description: 
+        Get the FriendList
+      # This is array of GET operation parameters:
+      parameters:
+        # An example parameter that is in query and is required
+        - name: _sort
+          in: query
+          required: false
+          type: string
+        - name: _order
+          in: query
+          required: false
+          type: string
+      # Expected responses for this operation:
+      responses:
+        # Response code
+        200:
+          description: FriendList succesfully retrieved
+          # A schema describing your response object.
+          # Use JSON Schema format
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/friend'
+        404:
+          description: FriendList not found
+  /Friends/{friendID}:
+    parameters:
+      - name: friendID
+        in: path
+        required: true
+        type: integer
+        format: int64
+    get:
+      description: Get a friend's location with *friendID*
+      responses:
+        200:
+          description: Friend succesfully retrieved
+          schema:
+            $ref: '#/definitions/friend/properties/location'
+        404:
+          description: Friend not found
+  /Tickets:
+    get:
+      description:
+        Get a list of all the tickets
+      parameters:
+        - name: _sort
+          in: query
+          required: false
+          type: string
+        - name: _order
+          in: query
+          required: false
+          type: string
+      responses:
+        200:
+          description: TicketList succesfully retrieved
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/ticket'
+  /Tickets/buy:
+    post:
+      description:  Buy a Ticket
+      operationId:  addTicket
+      parameters:
+        - name: type
+          description: Please enter the type of ticket you want to buy (Regular/Discount/Student)
+          in: body
+          required: true
+          schema:
+            $ref: '#/definitions/ticketDB' 
+      responses:
+        201:
+          description: Ticket purchased successfully
+  /Tickets/validate/{validateID}:
+    parameters:
+      - name: validateID
+        in: path
+        required: true
+        type: integer
+        format: int64
+    put:
+      description:  Validate a Ticket
+      operationId:  validateTicket
+      parameters:
+        - name: Status
+          description: Select "True" if you want to validate your ticket
+          in: body
+          required: true
+          schema:
+            $ref: '#/definitions/newTicket/properties/validationStatus'
+      responses:
+        200:
+          description: Ticket validated successfully
+        404:
+          description: Product not found
+  /Tickets/{shareByID}:
+    parameters:
+    - name: shareByID
+      in: path
+      required: true
+      type: integer
+      format: int64
+    get:
+      description: Get a ticket's id from TicketList in order to share the ticket with a friend
+      responses:
+        200:
+          description: Ticket succesfully retrieved
+          schema:
+            $ref: '#/definitions/ticket/properties/id'
+        404:
+         description: Ticket not found
+  /Admin/editTicket/{ticketID}:
+    parameters:
+      - name: ticketID
+        in: path
+        required: true
+        type: integer
+        format: int64
+    put:
+      description:  Edit a Ticket
+      operationId:  editTicket
+      parameters:
+        - name: ticket
+          description: Edit the ticket's parameters
+          in: body
+          required: true
+          schema:
+            $ref: '#/definitions/newTicket'
+      responses:
+        200:
+          description: Ticket validated successfully
+        404:
+          description: Product not found  
+  /Admin/editRoute/{routeID}:
+    parameters:
+      - name: routeID
+        in: path
+        required: true
+        type: integer
+        format: int64
+    put:
+      description:  Edit a Route
+      operationId:  editRoute
+      parameters:
+        - name: route
+          description: Edit a route's parameters
+          in: body
+          required: true
+          schema:
+            $ref: '#/definitions/newRoute'
+      responses:
+        200:
+          description: Ticket validated successfully
+        404:
+          description: Product not found  
+  /Admin/editNewsfeed/{newsfeedID}:
+    parameters:
+      - name: newsfeedID
+        in: path
+        required: true
+        type: integer
+        format: int64
+    put:
+      description:  Edit newsfeed's entries
+      operationId:  editNewsfeed
+      parameters:
+        - name: newsfeed
+          description: Edit a route's parameters
+          in: body
+          required: true
+          schema:
+            $ref: '#/definitions/newNewsfeed'
+      responses:
+        200:
+          description: Ticket validated successfully
+        404:
+          description: Product not found 
+  /Admin/accesstoFeedback:
+    get:
+      description: Gets all feedback data
+      parameters:
+        - name: _sort
+          in: query
+          required: false
+          type: string
+        - name: _order
+          in: query
+          required: false
+          type: string
+      responses:
+        200:
+          description: Feedback succesfully retrieved
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/feedback'
+        404:
+          description: Feedback not found 
+  /Admin/createStation:    
+    post:
+      description: Create a new station
+      operationId: addStation
+      parameters:
+        - name: station
+          in: body
+          required: true
+          description: Station to add
+          schema:
+            $ref: '#/definitions/newStation'
+      responses:
+        201:
+          description: Station created
+  /Admin/createRoute:    
+    post:
+      description: Create a new route
+      operationId: addRoute
+      parameters:
+        - name: route
+          in: body
+          required: true
+          description: Route to add
+          schema:
+            $ref: '#/definitions/newRoute'
+      responses:
+        201:
+          description: Route created
+  
+      
+      
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+    
+    
