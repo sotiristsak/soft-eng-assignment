@@ -1,2 +1,2 @@
 
-# BusLine Blink
+# UML Class Diagram
